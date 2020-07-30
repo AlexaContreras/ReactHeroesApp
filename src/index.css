@@ -1,0 +1,28 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+  background-color: rgb(41, 44, 61);
+}
+
+a {
+  color: white;
+  font-weight: 500;
+}
+
+a:hover,
+.active {
+  color: rgb(66, 143, 146);
+}
+
+.divSearchResult {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.searchResultItems {
+  width: 49%;
+  margin-bottom: 20px;
+}
